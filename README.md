@@ -38,7 +38,7 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
 8. GPU : NVIDIA Tesla P100 (3584 CUDA Cores)
 9. RAM : 16 GB
 
-## Results
+### Results
 1. Drastic reduction in the training and validation loss upon training.
 2. But the model learning is very minimal.
 
@@ -56,3 +56,28 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
 * Temporal Information [1-D Conv on the sequence (Temporal stream)]
 
 ![Screenshot4](https://github.com/baluniranjan/Yoga-Pose-Estimation-using-3D-CNN/blob/main/images/MoViNet%20Architecture.png)
+
+### Pre-processing Pipeline
+1. Packages Used
+* OpenCV
+* MoviePy
+2. Pre-processings performed:
+* Number of frames
+* Step Value
+3. Augmentation Strategies Used:
+* Random Flip
+* Random Rotation
+* Zoom and Shift
+
+### Neural Network Training
+1. Input Image Size : 8 x 8 x 224 x 224 x 3
+2. Loss Function : Sparse Categorical Entropy
+3. Optimier : Adam Optimizer
+  * Learning Rate : 0.001
+4. Number of Epochs : 15
+5. ReduceLROnPlateau
+  * Patience : 3, Factor : 0.1
+6.Pre-trained weights from Kinetics 600
+
+
+
