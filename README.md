@@ -21,7 +21,7 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
 5. Augmentation Strategies Used
   * Several augmentation strategies were performed on the videos. The image below shows them.
 
- INSERT IMAGE HERE
+![pic1](./images/C3D Architecture.png)
  
 ### Neural Network Training
 1. Input Image Size : 16 x 16 x 112 x 112 x 3
