@@ -11,6 +11,8 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
   * AvgPool3D Layers
 3. Uses 3-D Kernels to perform Convolution
 
+![Screenshot1](https://github.com/baluniranjan/Yoga-Pose-Estimation-using-3D-CNN/blob/main/images/C3D%20Architecture.png)
+
 ### Pre-processing Pipeline
 1. Packages Used
   * OpenCV
@@ -21,8 +23,8 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
 5. Augmentation Strategies Used
   * Several augmentation strategies were performed on the videos. The image below shows them.
 
-![C3D Architecture](./images/C3D Architecture.png)
- 
+![Screenshot2](https://github.com/baluniranjan/Yoga-Pose-Estimation-using-3D-CNN/blob/main/images/Data%20Preprocessing%201.png)
+
 ### Neural Network Training
 1. Input Image Size : 16 x 16 x 112 x 112 x 3
 2. Loss Function : Categorical Cross Entropy
@@ -40,7 +42,7 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
 1. Drastic reduction in the training and validation loss upon training.
 2. But the model learning is very minimal.
 
-INSERT IMAGE HERE.
+![Screenshot3](https://github.com/baluniranjan/Yoga-Pose-Estimation-using-3D-CNN/blob/main/images/Train%20vs%20Validation%20Loss.png)
 
 ## MoViNet Architecture
 1. Family of deep learning network for video recognition tasks.
@@ -52,3 +54,5 @@ INSERT IMAGE HERE.
 4. Two-stream architecture
 * Spatial Information [2-D Conv on each frame (Spatial stream)]
 * Temporal Information [1-D Conv on the sequence (Temporal stream)]
+
+![Screenshot4](https://github.com/baluniranjan/Yoga-Pose-Estimation-using-3D-CNN/blob/main/images/MoViNet%20Architecture.png)
