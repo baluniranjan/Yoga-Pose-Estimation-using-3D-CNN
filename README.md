@@ -6,16 +6,16 @@ Performed Yoga Pose Estimation using two different architectures, namely C3D Arc
 ## C3D Architecture:
 1. Popular for video analysis on Human Action Recognition tasks
 2. Uses 3-D Convolutional Neural Networks
-* Conv3D Layers
-* MaxPool3D Layers
-* AvgPool3D Layers
+  * Conv3D Layers
+  * MaxPool3D Layers
+  * AvgPool3D Layers
 3. Uses 3-D Kernels to perform Convolution
 
 ### Pre-processing Pipeline
 1. Packages Used
-* OpenCV
-* MoviePy
-* FFmpeg
+  * OpenCV
+  * MoviePy
+  * FFmpeg
 2. Pre-processings performed
 3. Subclips
 4. Augmentation Strategies Used !!
